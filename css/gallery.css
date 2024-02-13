@@ -1,8 +1,10 @@
 body {
-  overflow-x: hidden;
+  /* overflow-y: hidden; */
   width: 100vw;
+  /* max-height: 100vh; */
   margin: 0;
   font-family: "Snell Roundhand", Arial, sans-serif;
+  background-color: ivory;
 }
 
 .nav {
@@ -13,7 +15,7 @@ body {
   justify-items: center;
   flex-wrap: wrap;
   background-color: ivory;
-  width: 100vw;
+  height: 60px;
 }
 .nav__left {
   color: black;
@@ -24,6 +26,8 @@ body {
   text-decoration: none;
   height: 40px;
   width: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .nav__right ul {
@@ -45,6 +49,8 @@ body {
 .nav__link--active {
   text-decoration: underline black;
 }
+
+/* main */
 
 .photo-gallery {
   width: 100vw;

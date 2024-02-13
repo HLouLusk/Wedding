@@ -48,3 +48,39 @@ body {
 .nav__link--active {
   text-decoration: underline black;
 }
+
+.location__section--title {
+  color: black;
+  padding-left: 50px;
+  overflow-wrap: break-word;
+}
+
+.location-card__image {
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+}
+.location-card__background {
+  display: block;
+  width: 500px;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.location-card__label {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  color: #ffffff;
+}
+.card a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
