@@ -15,6 +15,7 @@ body {
   /* max-height: 100vh; */
   margin: 0;
   font-family: "Snell Roundhand", Arial, sans-serif;
+  background-color: ivory;
 }
 
 .nav {
