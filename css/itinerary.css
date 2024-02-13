@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: ivory;
+  /* width: 100vw; */
+}
+.nav__left {
+  color: black;
+  margin: 0px 40px;
+}
+.flower__logo {
+  color: black;
+  text-decoration: none;
+  height: 40px;
+  width: auto;
+}
+
+.nav__right ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0px 40px;
+}
+.nav__right li {
+  margin-right: 15px;
+  color: black;
+}
+
+.nav__right a {
+  text-decoration: none;
+  color: black;
+}
+.nav__link--active {
+  text-decoration: underline black;
+}
