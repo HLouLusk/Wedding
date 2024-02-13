@@ -12,9 +12,11 @@
   color: silver;
   margin: 0px 40px;
 }
-.nav__logo a {
+.flower__logo {
   color: silver;
   text-decoration: none;
+  height: 40px;
+  width: auto;
 }
 
 .nav__right ul {
@@ -41,13 +43,15 @@
   width: 100vw;
   box-sizing: border-box;
   background-color: #fafafa;
-  padding: 24px 16px;
+  /* padding: 24px 16px; */
 }
 
 .photo-gallery__images .photo-gallery__title {
-  padding-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 24px;
 }
 .photo-gallery__images img {
-  width: 30%;
+  flex-basis: 33.33%;
+  width: 33%;
 }
