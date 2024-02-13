@@ -1,0 +1,89 @@
+/* colour palette */
+/* Dusty Rose: #d2a5a3
+Soft Peach: #fbd2b7
+Mauve: #b598a3
+Champagne: #f5e1c0
+Lavender: #c3aed6
+Sage Green: #b8c9a5
+Gold: #ffd700
+Ivory: #fffff0
+Pale Blue: #a9cce3 */
+
+body {
+    margin: 0;
+    font-family: "Snell Roundhand", Arial, sans-serif;
+  }
+  
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: #ecd7d0;
+  width: 100vw;
+  
+}
+.nav__left {
+  color: #890025;
+  margin: 0px 40px;
+}
+.nav__logo a {
+  color: #890025;
+  text-decoration: none;
+}
+.nav__right ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0px 40px;
+}
+.nav__right li {
+  margin-right: 15px;
+  color: #890025;
+}
+
+.nav__right a {
+  text-decoration: none;
+  color: #890025;
+}
+.nav__link--active {
+  text-decoration: underline #890025;
+}
+
+/* footer */
+
+.footer {
+  background-color: #fffff0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+  color: #890025;
+}
+
+.contact-info p a {
+  margin: 5px 0;
+  color: #890025;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #890025;
+}
