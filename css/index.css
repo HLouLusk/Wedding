@@ -10,9 +10,7 @@ Ivory: #fffff0
 Pale Blue: #a9cce3 */
 
 body {
-  /* overflow-y: hidden; */
   width: 100vw;
-  /* max-height: 100vh; */
   margin: 0;
   font-family: "Snell Roundhand", Arial, sans-serif;
   background-color: ivory;
@@ -96,60 +94,38 @@ body {
 }
 
 .container__header {
-  color: white; /* Set text color */
+  color: white;
   font-weight: 600;
   font-size: 40px;
-  /* background-color: ivory; */
 }
 .container__date {
-  color: white; /* Set text color */
+  color: white;
   font-weight: 600;
   font-size: 24px;
   text-decoration: underline;
   text-align: center;
-  /* background-color: ivory; */
 }
 
-.scrolling-text__container {
-  width: 100vw;
-  margin: 1em auto;
+.ticker-container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
   overflow: hidden;
-  position: relative;
+  text-transform: uppercase;
   height: 30px;
   margin: 0;
-  align-items: center;
 }
 
-.scrolling-text {
-  white-space: nowrap;
-  position: absolute;
-  text-transform: uppercase;
-  margin: auto 0;
-  font-size: 24px;
-  font-weight: bold;
+.ticker-content {
+  display: inline-block;
+  animation: marquee linear infinite;
 }
 
-.scrolling-text {
-  -webkit-animation: mymove 8s linear infinite; /* Safari 4.0 - 8.0 */
-  white-space: nowrap;
-  animation: mymove 8s linear infinite;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-  from {
-    left: 0;
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
   }
-  to {
-    left: -100%;
-  }
-}
-
-@keyframes mymove {
-  from {
-    left: 0;
-  }
-  to {
-    left: -140px;
+  100% {
+    transform: translateX(-100%);
   }
 }
