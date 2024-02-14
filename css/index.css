@@ -1,64 +1,3 @@
-/* colour palette */
-/* Dusty Rose: #d2a5a3
-Soft Peach: #fbd2b7
-Mauve: #b598a3
-Champagne: #f5e1c0
-Lavender: #c3aed6
-Sage Green: #b8c9a5
-Gold: #ffd700
-Ivory: #fffff0
-Pale Blue: #a9cce3 */
-
-body {
-  width: 100vw;
-  margin: 0;
-  font-family: "Snell Roundhand", Arial, sans-serif;
-  background-color: ivory;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
-  flex-wrap: wrap;
-  background-color: ivory;
-  height: 60px;
-}
-.nav__left {
-  color: black;
-  margin: 0px 40px;
-}
-.flower__logo {
-  color: black;
-  text-decoration: none;
-  height: 40px;
-  width: auto;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-.nav__right ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0px 40px;
-}
-.nav__right li {
-  margin-right: 15px;
-  color: black;
-}
-
-.nav__right a {
-  text-decoration: none;
-  color: black;
-}
-.nav__link--active {
-  text-decoration: underline black;
-}
-
 /* main */
 
 .main-background {
@@ -72,12 +11,7 @@ body {
   object-position: center 92%;
 }
 
-.container {
-  position: relative;
-  z-index: 1;
-}
-
-.container__content {
+.announcement__content {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -93,18 +27,19 @@ body {
   display: block;
 }
 
-.container__header {
+.announcement__header {
   color: white;
   font-weight: 600;
   font-size: 40px;
 }
-.container__date {
+.announcement__date {
   color: white;
   font-weight: 600;
   font-size: 24px;
   text-decoration: underline;
   text-align: center;
 }
+/* main footer scroll */
 
 .ticker-container {
   display: flex;
